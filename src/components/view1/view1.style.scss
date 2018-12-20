@@ -7,12 +7,23 @@
 
 .text{
 	width:100%;
-	min-height:300px;
+	min-height:200px;
 	margin:10px 0px;
 }
 
+.box{
+	background-color:var(--app-primary-color);
+	color:white;
+	border-radius:3px;
+	border-color:none;
+}
+
+.box::placeholder{
+	color:white;
+}
+
 .question{
-	min-height:150px;
+	min-height:100px;
 	width:100%;
 	margin:10px 0px;
 }
@@ -21,7 +32,11 @@
 	width:100%;
 	height:50px;
 	margin:10px 0px;
-
+	background-color:#EC407A;
+	border-color:none;
+	outline:none;
+	color:white;
+	border-radius:3px;
 }
 
 .card{
