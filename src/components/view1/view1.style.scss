@@ -3,3 +3,30 @@
 
   padding: 10px;
 }
+
+
+.text{
+	width:100%;
+	min-height:300px;
+	margin:10px 0px;
+}
+
+.question{
+	min-height:150px;
+	width:100%;
+	margin:10px 0px;
+}
+
+.ask{
+	width:100%;
+	height:50px;
+	margin:10px 0px;
+
+}
+
+.card{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+}
